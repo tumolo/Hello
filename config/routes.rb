@@ -1,11 +1,12 @@
 Hello::Application.routes.draw do
   resources :contacts
+  resources :dogs
 
   #get "home/index"
 
   #get "contact/index"
 
-  root :to => "contacts#index"  
+  root :to => "dogs#index"  
   
   
   

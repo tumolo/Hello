@@ -10,11 +10,6 @@ class ContactsController < ApplicationController
     end
   end
 
-  def kermit
-    #@contacts = Contact.all
-  end  
-  
-  
   # GET /contacts/1
   # GET /contacts/1.xml
   def show
