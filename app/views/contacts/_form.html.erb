@@ -1,3 +1,5 @@
+<p><b>This is a Test Commit<b></p>
+
 <%= form_for(@contact) do |f| %>
   <% if @contact.errors.any? %>
     <div id="error_explanation">
@@ -10,7 +12,7 @@
       </ul>
     </div>
   <% end %>
-
+  
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
@@ -35,3 +37,5 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+
